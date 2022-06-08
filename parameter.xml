@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jayesh">
+<test name="FacebookReport">
+<parameter name="Url" value="https://www.facebook.com/">
+</parameter>
+<parameter name="fname" value="Selenium">
+</parameter>
+<parameter name="sname" value="testing">
+</parameter>
+<parameter name="email" value="Selenium@gmail.com">
+</parameter>
+<parameter name="renteremail" value="Selenium@gmail.com">
+</parameter>
+<parameter name="password" value="Selenium@2345">
+</parameter>
+<parameter name="bday" value="15">
+</parameter>
+<parameter name="bmonth" value="Dec">
+</parameter>
+<parameter name="byear" value="1978">
+</parameter>
+<classes>
+<class name="may16.FacebookParameters">
+</class>
+</classes>
+</test>
+</suite>
